@@ -7,7 +7,7 @@ export const site = {
   aboutSubtitle: "Building with it.",
   aboutBody:
     "Zaka Anshori is an independent founder and builder, focused on creating digital products and AI systems that solve real problems.",
-  aboutHref: "#",
+  aboutHref: "https://wa.me/6281210004453",
 };
 
 export const products = [
