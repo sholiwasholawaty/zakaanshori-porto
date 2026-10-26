@@ -1,4 +1,3 @@
-// Semua teks & link ada di sini. Edit di satu tempat saja.
 export const site = {
   name: "Zaka Anshori",
   domain: "zakaanshori.com",
@@ -19,7 +18,7 @@ export const products = [
 
 export const contact = {
   label: "Diskusi kebutuhanmu",
-  href: "#", // ganti: "mailto:emailmu@domain.com" atau "https://wa.me/62xxxxxxxxxx"
+  href: "https://wa.me/6281210004453",
 };
 
 export const pricing = {
