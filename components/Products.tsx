@@ -10,7 +10,7 @@ const visuals = {
 
 export default function Products() {
   return (
-    <section id="products" className="scroll-mt-16 border-b border-fg/10 py-20">
+    <section id="products" className="scroll-mt-16 py-20">
       <div className="mx-auto max-w-6xl px-6">
         <div className="mb-8 flex items-center justify-between text-[11px] tracking-[0.2em] text-muted">
           <h2>SELECTED PRODUCTS</h2>
