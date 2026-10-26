@@ -49,6 +49,8 @@ export default function PricingPage() {
 
               <a
                 href={contact.href}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="group mt-8 inline-flex items-center gap-2 self-start text-sm"
               >
                 {contact.label}
