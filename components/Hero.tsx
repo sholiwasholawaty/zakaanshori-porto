@@ -5,7 +5,7 @@ const delay = (ms: number) => ({ animationDelay: `${ms}ms` });
 
 export default function Hero() {
   return (
-    <section id="top" className="relative border-b border-fg/10">
+    <section id="top" className="relative">
       <div className="mx-auto grid min-h-[calc(100svh-4rem)] max-w-6xl items-center gap-4 px-6 py-12 lg:grid-cols-[1fr_1.15fr]">
         <div className="relative z-10">
           <h1 className="rise text-5xl font-semibold tracking-tight sm:text-6xl" style={delay(100)}>
