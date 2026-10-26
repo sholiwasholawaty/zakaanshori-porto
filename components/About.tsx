@@ -24,7 +24,12 @@ export default function About() {
             <span className="text-fg/55">{site.aboutSubtitle}</span>
           </h2>
           <p className="mt-5 max-w-md text-sm leading-relaxed text-muted">{site.aboutBody}</p>
-          <a href={site.aboutHref} className="group mt-8 inline-flex items-center gap-2 text-sm">
+          <a
+            href={site.aboutHref}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group mt-8 inline-flex items-center gap-2 text-sm"
+          >
             More about me
             <ArrowRight size={14} strokeWidth={1.5} className="transition-transform group-hover:translate-x-1" />
           </a>
